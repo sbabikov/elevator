@@ -1,0 +1,27 @@
+{
+    "name": "sbabikov/elevator",
+    "description": "Elevator",
+    "version": "1.0",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sergii Babikov",
+            "email": "s.babikov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elevator\\": "src/",
+            "Elevator\\Logger\\": "src/Logger",
+            "Elevator\\User\\": "src/User",
+            "Elevator\\Control\\": "src/Control",
+            "Elevator\\Engine\\": "src/Engine",
+            "Elevator\\Sensor\\": "src/Sensor",
+            "Elevator\\Tests\\": "tests/"
+        }
+    }
+}
